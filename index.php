@@ -5,7 +5,7 @@
 <title>Image upload</title>
 <link href='http://fonts.googleapis.com/css?family=Boogaloo' rel='stylesheet' type='text/css'>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-<script type="text/javascript" src="js/multiupload.js"></script>
+<script type="text/javascript" src="multiupload.js"></script>
 <script type="text/javascript">
 var config = {
   support : "image/jpg,image/png,image/bmp,image/jpeg,image/gif",		// Valid file formats
@@ -17,7 +17,7 @@ $(document).ready(function(){
 	initMultiUploader(config);
 });
 </script>
-<link href="css/style.css" type="text/css" rel="stylesheet" />
+<link href="style.css" type="text/css" rel="stylesheet" />
 </head>
 <body lang="en">
 <center><h1 class="title">Multiple Drag and Drop File Upload</h1></center>
